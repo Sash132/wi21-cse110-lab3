@@ -32,13 +32,12 @@
             <section>
                 <h2>Who Am I?</h2>
                 <div>
-                    <figure>
-                        <img src="https://sash132.github.io/SashUserPageHTML/extras/profile.png"
-                             width="261"
-                             height="237"
+                    <picture>
+                        <source media="(min-width:200px)" 
+                                srcset="https://sash132.github.io/SashUserPageHTML/extras/profile.png">
+                        <img src="https://sash132.github.io/SashUserPageHTML/extras/profile.png" 
                              alt="Profile Picture">
-                        <figcaption>Picture of myself</figcaption>
-                    </figure>
+                    </picture>
                     
                     <p>
                         I am a second-year student at UC San Diego majoring in <strong>Computer Science</strong> and minoring in <strong>Cognitive Science</strong>. <br>
@@ -122,12 +121,11 @@
             
             <section>
                 <h4>A Picture of Geisel Library at UC San Diego</h4>
-                <picture>
-                    <source media="(max-width:400px)" 
-                            srcset="https://sash132.github.io/SashUserPageHTML/extras/geisel.jpg">
-                    <img src="https://sash132.github.io/SashUserPageHTML/extras/geisel.jpg" 
+                <figure>
+                    <img src="https://sash132.github.io/SashUserPageHTML/extras/geisel.jpg"
                          alt="Geisel Library">
-                </picture>
+                    <figcaption>Frontview Shot</figcaption>
+                </figure>
             </section>
             
             <section>
@@ -167,7 +165,15 @@
                 
             <section>
                 <h4>Example of iframe - Link to other test file</h4>
-                <iframe src="https://sash132.github.io/SashUserPageHTML/extras/otherfile.html" height="200" width="250"></iframe>
+                <iframe src="https://sash132.github.io/SashUserPageHTML/extras/otherfile.html" height="200" width="350"></iframe>
+            </section>
+            <br>
+            
+            <section>
+                <svg width="100" height="100">
+                    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="4" fill="gray" />
+                </svg>
+                <canvas id="myCanvas" width="250" height="100" style="border:1px solid #C0C0C0;"></canvas>
             </section>
             <br>
             
@@ -242,15 +248,6 @@
                     </fieldset>
                 </form>
             </section>
-            
-            <section>
-                <svg width="100" height="100">
-                    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="4" fill="gray" />
-                </svg>
-                <canvas id="myCanvas" width="150" height="100" style="border:1px solid #C0C0C0;"></canvas>
-            </section>
-            
-            
         </main>
         <hr>
         
