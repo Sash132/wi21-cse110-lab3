@@ -1,16 +1,19 @@
 # Daily Standup Notes
-## Sash Gollamudi - Month/Day/Year
+## Sash Gollamudi - Date
 
 ### Completed Tasks (Yesterday):
   * Completed Task 1
   * Completed Task 2
-  * Completed Task 3
+  * ...
+  * Completed Task X
 ### Upcoming Tasks (Today):
   * Upcoming Task 1
   * Upcoming Task 2
-  * Upcoming Task 3
+  * ...
+  * Upcoming Task X
 ### Issues I Am Stuck On (Blockers):
   * Issue 1
   * Issue 2
-  * Issue 3
+  * ...
+  * Issue X
 
