@@ -1,3 +1,19 @@
 * {
     background-color: hsl(34,44%,68%);
 }
+
+body {
+    font-family: 'Lato';
+}
+
+h2#heading {
+    color: #00008B;
+}
+
+p {
+    color: rgb(220,220,220);
+}
+
+.highlight {
+    background-color: yellow;
+}
