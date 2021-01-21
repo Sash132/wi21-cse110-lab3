@@ -1,19 +1,24 @@
+/* Set entire background to tan */
 * {
     background-color: hsl(34,44%,68%);
 }
 
+/* Sets font of entire body to Lato */
 body {
     font-family: 'Lato', sans-serif;
 }
 
+/* Allows h2 headers to be dark-blue */
 h2#heading {
     color: #00008B;
 }
 
+/* Makes paragraphs white */
 p {
     color: rgb(255,255,255);
 }
 
+/* Allows for any piece of text to be highlighted */
 .highlight {
     background-color: yellow;
 }
