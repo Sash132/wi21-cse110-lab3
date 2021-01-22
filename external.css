@@ -106,3 +106,11 @@ summary + p {
 header > h3 { 
     background-color: lightblue; 
 }
+
+/* FlexBox */
+.box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
