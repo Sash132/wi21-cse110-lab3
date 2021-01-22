@@ -114,8 +114,8 @@ header > h3 {
 /* FlexBox */
 .container {
     display: flex;
-    background-color: black;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    align-self: flex-start;
 }
 
 .gridbox {
