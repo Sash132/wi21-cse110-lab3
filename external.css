@@ -118,11 +118,11 @@ header > h3 {
     align-self: flex-start;
     background-color: black;
     width: 100px;
-    margin: 10px;
     text-align: center;
 }
-.testing {
-    flex-grow: 2;   
+.item {
+    flex-grow: 2;
+    margin: 2px 2px 2px 2px;
 }
 
 .gridbox {
