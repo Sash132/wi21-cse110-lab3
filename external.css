@@ -60,6 +60,7 @@ p::first-line {
     background-color: hsla(0,0%,0%,0.8);
     height: 4cm;
     weight: 4cm;
+    display: block;
 }
 
 /* Media Query */
@@ -124,7 +125,6 @@ header > h3 {
     display: grid;
     grid-template-columns: 150px 150px;
     grid-template-rows: auto auto auto;
-    display: block;
 }
 .gridbox {
     text-align: center;
