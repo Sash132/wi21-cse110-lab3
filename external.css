@@ -13,6 +13,12 @@ h2#heading {
     color: #00008B;
 }
 
+/* Underlines all section texts */
+h2 {
+    text-decoration: underline;  
+    text-align: center;
+}
+
 /* Makes paragraphs white */
 p {
     color: rgb(255,255,255);
@@ -31,21 +37,14 @@ p {
     border-radius: 2px;
 }
 
-/* Centers footer and makes it stick to a position */
-footer {
-    position: fixed;
-    left: 50%;
-    bottom: 10%;
-}
-
 /* Add a box model for the video visual */
 .visual {
     margin: auto;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
+    padding-top: 1ch;
+    padding-left: 3ch;
+    padding-right: 3ch;
+    padding-bottom: 1ch;
     background-color: black;
-    height: 200;
-    weight: 400;
+    height: 2cm;
+    weight: 4cm;
 }
