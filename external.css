@@ -50,3 +50,10 @@ p {
     height: 4cm;
     weight: 4cm;
 }
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: white;
+    }
+}
