@@ -114,6 +114,12 @@ header > h3 {
     align-self: flex-start;
 }
 
+.gridbox {
+    text-align: center;
+    background-color: lightblue;
+    border: 5px black solid;
+}
+
 /* Grid */
 .frame {
     display: grid;
