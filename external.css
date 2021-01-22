@@ -10,8 +10,11 @@ h2#heading {
 }
 
 /* Changes certain links to have a pink background */
-links[target="_blank"] {
-    background-color: pink;
+link_bg[href*="linkedin"] { 
+    background-color: pink; 
+}
+link_bg[href*="github"] { 
+    background-color: pink; 
 }
 
 /* Underlines all section texts */
