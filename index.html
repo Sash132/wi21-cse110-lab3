@@ -187,75 +187,77 @@
             
             <section>
                 <h4>Form about favorites and UCSD</h4>
-                <form action="nothing.php">
-                    <fieldset>
-                        <legend>Questionnaire:</legend>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name"><br>
+                <div class="box">
+                    <form action="nothing.php">
+                        <fieldset>
+                            <legend>Questionnaire:</legend>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name"><br>
 
-                        <label for="email">Your Email:</label>
-                        <input type="email" id="email" name="email"><br>
+                            <label for="email">Your Email:</label>
+                            <input type="email" id="email" name="email"><br>
 
-                        <label for="birthday">Birthday:</label>
-                        <input type="date" id="birthday" name="birthday"><br>
+                            <label for="birthday">Birthday:</label>
+                            <input type="date" id="birthday" name="birthday"><br>
 
-                        <label for="color">Favorite color:</label>
-                        <input type="color" id="color" name="color"><br>
+                            <label for="color">Favorite color:</label>
+                            <input type="color" id="color" name="color"><br>
 
-                        <label for="number">Favorite number:</label>
-                        <input type="number" id="number" name="number"><br>
-                        
-                        <label for="day">Favorite day of the year:</label>
-                        <input type="datetime-local" id="day" name="day"><br>
-                        
-                        <label for="month">Favorite month:</label>
-                        <input type="month" id="month" name="month"><br>
-                        
-                        <label for="url">Favorite website:</label>
-                        <input type="url" id="url" name="url"><br>
-                        
-                        <label for="time">Favorite time of day:</label>
-                        <input type="time" id="time" name="time"><br>
-                        
-                        <label for="like">Do you like attending UCSD?</label>
-                        <input type="checkbox" id="like" name="like"><br>
-                        
-                        <label for="college">What college are you in at UCSD?</label>
-                        <select id="college">
-                            <optgroup label="Colleges">
-                                <option value="Warren">Warren</option>
-                                <option value="Marshall">Marshall</option>
-                                <option value="Muir">Muir</option>
-                                <option value="Revelle">Revelle</option>
-                                <option value="ERC">ERC</option>
-                                <option value="Sixth">Sixth</option>
-                                <option value="Seventh">Seventh</option>
-                            </optgroup>
-                        </select>
-                        <br>
-                        
-                        <label for="uni">Which university is your favorite?</label>
-                        <input list="unis" name="uni" id="uni">
-                        <datalist id="unis">
-                          <option value="UCSD"></option>
-                          <option value="UCB"></option>
-                          <option value="UCLA"></option>
-                          <option value="UCSC"></option>
-                          <option value="UCR"></option>
-                          <option value="UCM"></option>
-                          <option value="UCSB"></option>
-                          <option value="UCI"></option>
-                        </datalist>
-                        <br>
-                        
-                        <label for="like">What would be one thing you would change about UCSD?</label><br>
-                        <textarea id="response" name="response" rows="5" cols="50"></textarea>
-                        <br>
+                            <label for="number">Favorite number:</label>
+                            <input type="number" id="number" name="number"><br>
 
-                        <input type="submit" value="Submit">
-                        <input type="reset">
-                    </fieldset>
-                </form>
+                            <label for="day">Favorite day of the year:</label>
+                            <input type="datetime-local" id="day" name="day"><br>
+
+                            <label for="month">Favorite month:</label>
+                            <input type="month" id="month" name="month"><br>
+
+                            <label for="url">Favorite website:</label>
+                            <input type="url" id="url" name="url"><br>
+
+                            <label for="time">Favorite time of day:</label>
+                            <input type="time" id="time" name="time"><br>
+
+                            <label for="like">Do you like attending UCSD?</label>
+                            <input type="checkbox" id="like" name="like"><br>
+
+                            <label for="college">What college are you in at UCSD?</label>
+                            <select id="college">
+                                <optgroup label="Colleges">
+                                    <option value="Warren">Warren</option>
+                                    <option value="Marshall">Marshall</option>
+                                    <option value="Muir">Muir</option>
+                                    <option value="Revelle">Revelle</option>
+                                    <option value="ERC">ERC</option>
+                                    <option value="Sixth">Sixth</option>
+                                    <option value="Seventh">Seventh</option>
+                                </optgroup>
+                            </select>
+                            <br>
+
+                            <label for="uni">Which university is your favorite?</label>
+                            <input list="unis" name="uni" id="uni">
+                            <datalist id="unis">
+                              <option value="UCSD"></option>
+                              <option value="UCB"></option>
+                              <option value="UCLA"></option>
+                              <option value="UCSC"></option>
+                              <option value="UCR"></option>
+                              <option value="UCM"></option>
+                              <option value="UCSB"></option>
+                              <option value="UCI"></option>
+                            </datalist>
+                            <br>
+
+                            <label for="like">What would be one thing you would change about UCSD?</label><br>
+                            <textarea id="response" name="response" rows="5" cols="50"></textarea>
+                            <br>
+
+                            <input type="submit" value="Submit">
+                            <input type="reset">
+                        </fieldset>
+                    </form>
+                </div>
             </section>
         </main>
         <hr>
