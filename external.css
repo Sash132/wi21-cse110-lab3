@@ -90,7 +90,7 @@ div > span {
 
 /* General Sibling Combinator */
 section ~ aside {
-    font-size: 120%;
+    font-size: 150%;
     padding: 2px 2px 2px 2px;
 }
 
@@ -101,6 +101,6 @@ img + p {
 }
 
 /* Combining Selectors
-body > h2 { 
+section > h2 { 
     background-color: black; 
 }
