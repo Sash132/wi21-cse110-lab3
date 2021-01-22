@@ -96,7 +96,6 @@ p > span {
 
 /* General Sibling Combinator */
 ol ~ li {
-    font-size: 150%;
     padding: 2px 2px 2px 2px;
 }
 
