@@ -1,6 +1,6 @@
-/* Sets font of entire body to Lato */
-body {
-    font-family: 'Lato', sans-serif;
+/* Changes entire background to gray */
+* {
+    background-color: hsl(0, 0%, 71%);
 }
 
 /* Allows h2 headers to be dark-blue */
