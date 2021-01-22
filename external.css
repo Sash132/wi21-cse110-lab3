@@ -121,6 +121,9 @@ header > h3 {
     margin: 10px;
     text-align: center;
 }
+.testing {
+    flex-grow: 2;   
+}
 
 .gridbox {
     text-align: center;
