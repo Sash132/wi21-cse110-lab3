@@ -11,7 +11,7 @@ h2#heading {
 
 /* Changes links to have a pink background */
 a[href*="https"] { 
-    background-color: pink; 
+    background-color: green; 
 }
 
 /* Underlines all section texts */
