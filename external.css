@@ -77,7 +77,7 @@ p::first-line {
 
 /* Descendant Combinator */
 ul li {
-    color: coral;
+    color: darkblue;
 }
 
 /* Child Combinator */
@@ -95,12 +95,12 @@ section ~ aside {
 }
 
 /* Adjacent Sibling Combinator */
-img + p {
+summary + p {
     font-weight: bold;
     font-size: 120%;
 }
 
-/* Combining Selectors
-section > h2 { 
-    background-color: black; 
+/* Combining Selectors */
+header > h3 { 
+    background-color: coral; 
 }
