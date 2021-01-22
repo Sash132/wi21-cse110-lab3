@@ -29,6 +29,10 @@ p {
     margin-right: 2px;
 }
 
+p::first-line {
+    font-weight: bold;
+}
+
 /* Allows for any piece of text to be highlighted */
 .highlight {
     background-color: yellow;
@@ -63,10 +67,10 @@ p {
     }
 }
 
+/* Pseudo-classes */
 .link:hover {
   color: orange;
 }
-
 .link:active {
   color: pink;
 }
