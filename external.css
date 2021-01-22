@@ -62,3 +62,11 @@ p {
         background-color: coral;
     }
 }
+
+.link:active {
+  color: pink;
+}
+
+.link:hover{
+  color: orange;
+}
