@@ -32,6 +32,7 @@ p {
 p::first-line {
     font-weight: bold;
     font-size: 110%
+    display: inline;
 }
 
 /* Allows for any piece of text to be highlighted */
@@ -79,7 +80,6 @@ p::first-line {
 /* Descendant Combinator */
 ul li {
     color: darkblue;
-    display: inline;
 }
 
 /* Child Combinator */
