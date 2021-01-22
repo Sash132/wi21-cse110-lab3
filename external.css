@@ -63,10 +63,10 @@ p {
     }
 }
 
-.link:active {
-  color: pink;
+.link:hover {
+  color: orange;
 }
 
-.link:hover{
-  color: orange;
+.link:active {
+  color: pink;
 }
