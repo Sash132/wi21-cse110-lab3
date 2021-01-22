@@ -59,7 +59,6 @@ p::first-line {
     background-color: hsla(0,0%,0%,0.9);
     height: 4cm;
     weight: 4cm;
-    display: block;
 }
 
 /* adds display property to button */
