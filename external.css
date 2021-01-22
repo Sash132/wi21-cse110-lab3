@@ -116,6 +116,10 @@ header > h3 {
     display: flex;
     flex-direction: row;
     align-self: flex-start;
+    background-color: black;
+    width: 100px;
+    margin: 10px;
+    text-align: center
 }
 
 .gridbox {
