@@ -23,9 +23,27 @@ p {
     background-color: yellow;
 }
 
+/* Adds border around profile picture */
 .profile {
     border-style: double;
     border-color: black;
     border-width: 5px;
     border-radius: 2px;
+}
+
+/* Centers footer and makes it stick to a position */
+footer {
+    position: fixed;
+    left: 50%;
+}
+
+/* Add a box model for the video visual */
+.visual {
+    margin: auto;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    height: 200;
+    weight: 400;
 }
