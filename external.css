@@ -6,6 +6,7 @@ body {
 /* Allows h2 headers to be dark-blue */
 h2#heading {
     color: #00008B;
+    margin: 2px 2px 2px 2px;
 }
 
 /* Underlines all section texts */
@@ -17,6 +18,10 @@ h2 {
 /* Makes paragraphs white */
 p {
     color: rgb(255,255,255);
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 /* Allows for any piece of text to be highlighted */
@@ -30,6 +35,7 @@ p {
     border-color: black;
     border-width: 5px;
     border-radius: 2px;
+    padding: 2px 2px 2px 2px;
 }
 
 /* Add a box model for the video visual */
