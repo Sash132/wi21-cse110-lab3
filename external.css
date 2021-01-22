@@ -58,6 +58,7 @@ p::first-line {
     background-color: hsla(0,0%,0%,0.9);
     height: 4cm;
     weight: 4cm;
+    display: block;
 }
 
 /* Media Query */
@@ -78,6 +79,7 @@ p::first-line {
 /* Descendant Combinator */
 ul li {
     color: darkblue;
+    display: inline;
 }
 
 /* Child Combinator */
