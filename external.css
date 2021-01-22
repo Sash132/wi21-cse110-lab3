@@ -6,7 +6,7 @@
 /* Allows h2 headers to be dark-blue */
 h2#heading {
     color: #00008B;
-    margin: 2px 2px 2px 2px;
+    margin: 2ex 1em 1em 2ex;
 }
 
 /* Changes links to have a pink background */
@@ -23,10 +23,10 @@ h2 {
 /* Makes paragraphs white */
 p {
     color: rgb(255,255,255);
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-top: 2pt;
+    margin-bottom: 2pt;
+    margin-left: 2pt;
+    margin-right: 2pt;
 }
 
 p::first-line {
@@ -44,7 +44,7 @@ p::first-line {
 .profile {
     border-style: double;
     border-color: #000;
-    border-width: 5px;
+    border-width: 3mm;
     border-radius: 2px;
     background-color: rgba(0,181,204,1);
 }
