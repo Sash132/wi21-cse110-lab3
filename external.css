@@ -10,10 +10,10 @@ h2#heading {
 }
 
 /* Changes certain links to have a pink background */
-link_bg[href*="linkedin"] { 
+a[href*="linkedin"] { 
     background-color: pink; 
 }
-link_bg[href*="github"] { 
+a[href*="github"] { 
     background-color: pink; 
 }
 
