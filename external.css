@@ -9,6 +9,11 @@ h2#heading {
     margin: 2px 2px 2px 2px;
 }
 
+/* Changes certain links to have a pink background */
+links[target="_blank"] {
+    background-color: pink;
+}
+
 /* Underlines all section texts */
 h2 {
     text-decoration: underline;  
