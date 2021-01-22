@@ -84,12 +84,12 @@ ul li {
 span {
     background-color: gray;
 }
-div > span {
+p > span {
     background-color: coral;
 }
 
 /* General Sibling Combinator */
-section ~ aside {
+ol ~ li {
     font-size: 150%;
     padding: 2px 2px 2px 2px;
 }
@@ -102,5 +102,5 @@ summary + p {
 
 /* Combining Selectors */
 header > h3 { 
-    background-color: coral; 
+    background-color: lightblue; 
 }
