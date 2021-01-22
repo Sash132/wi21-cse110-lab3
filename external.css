@@ -108,11 +108,10 @@ header > h3 {
 }
 
 /* FlexBox */
-.box {
+.container {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: row;
+    align-self: flex-start;
 }
 
 /* Grid */
