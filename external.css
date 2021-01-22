@@ -9,11 +9,8 @@ h2#heading {
     margin: 2px 2px 2px 2px;
 }
 
-/* Changes certain links to have a pink background */
-a[href*="linkedin"] { 
-    background-color: pink; 
-}
-a[href*="github"] { 
+/* Changes links to have a pink background */
+a[href*="https"] { 
     background-color: pink; 
 }
 
